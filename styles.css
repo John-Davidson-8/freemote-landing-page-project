@@ -9,22 +9,35 @@ body {
     font-size: 1rem;
     min-height: 100vh;
     min-width: 100%;
-    display: flex; /* it works with grid too  */
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
 }
 .outer-container {
     background-color: #FFF;
-    max-width: 30rem;
+}
+.container {
+    max-width: 35rem;
 }
 .section-centre {
     padding: 2rem;
 }
+.top-bar {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar h3 {
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 2.25rem;
+}
 .bold {
     font-weight: 700;
 }
-h1, h2, h3, h4 p {
+h1, h2, h3, h4, p {
     color: #111235;
     text-align: center;
 }
@@ -36,6 +49,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+}
+.hero-info p {
+    color: #111235;
 }
 .hero-section h3 {
     font-size: 2.25rem;
@@ -73,34 +89,39 @@ p {
 .loads-img {
     margin-bottom: 3rem;
 }
+.loads-info {
+    background-color: #F2F8FF;
+}
 .loads-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
+.loads-info {
+    margin-bottom: 8rem;
+}
 .loads-info h2 {
     font-weight: 500;
     text-align: left;
     font-size: 3rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 3rem;
 }
 .loads-info p {
     text-align: left;
-    line-height: 1.5;
-    margin-bottom: 10rem;
+    line-height: 1.8;
 }
 .trainer-section {
-    background-color: #8EBEFB;
+    background: linear-gradient(100deg, #BAD4FF 0%, #6487BF 100%);
 }
 .trainer-info h2 {
     font-size: 2.8rem;
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 0.8rem;
-
 }
 .trainer-details {
+    text-align: center;
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 1.8rem;
@@ -123,10 +144,8 @@ p {
 }
 .benefits-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 90%;
-    margin-top: 7rem;
+    margin: 7rem auto 4rem auto;
 }
 .benefits-info h2 {
     font-size: 3rem;
@@ -145,7 +164,7 @@ p {
     text-align: left;
 }
 .panel {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.3rem;
     border-radius: 1.87rem;
     padding: 3rem;
 }
@@ -164,7 +183,7 @@ p {
 .benefits-btn {
     background-color: #4B5092;
     color: #FFFFFF;
-    margin-bottom: 5rem;
+    margin: 4rem auto 4rem auto;
 }
 .benefits-section {
     border-bottom: 1px solid grey;
@@ -175,6 +194,7 @@ p {
 .bottom-section h3 {
     font-size: 2rem;
     font-weight: 500;
+    margin-top: 2.5rem;
     margin-bottom: 3rem;
 }
 .menu {
@@ -186,9 +206,6 @@ ul {
 ul li {
     margin-bottom: 3rem;
 }
-/* .bottom-section {
-    background-color: #dfebeb;
-} */
 .bottom-section a {
     text-decoration: none;
     color: #111235;
@@ -202,6 +219,7 @@ input[type="text"] {
     border-radius: 5rem;
     border: none;
     margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 .form-label {
     text-align: center;
@@ -215,7 +233,6 @@ form {
     justify-content: center;
 }
 footer {
-    background-color: #dfebeb;
     color: #111235;
     text-align: center;
     margin-bottom: 5rem;
@@ -224,5 +241,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
-
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 }
