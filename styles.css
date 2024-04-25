@@ -9,25 +9,17 @@ body {
     font-size: 1rem;
     min-height: 100vh;
     min-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgray;
-}
-.outer-container {
-    background-color: #FFF;
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
 }
 .container {
-    max-width: 35rem;
+    max-width: 40rem;
+    margin: auto;
 }
 .section-centre {
     padding: 2rem;
 }
 .top-bar {
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .top-bar h3 {
     padding: 2rem;
@@ -158,8 +150,9 @@ p {
     text-align: left;
     font-size: 1.5rem;
     margin-bottom: 1.25rem;
+    width: 85%;
 }
-.benefits-panel p {
+.panel p {
     font-size: 1rem;
     text-align: left;
 }
@@ -168,17 +161,11 @@ p {
     border-radius: 1.87rem;
     padding: 3rem;
 }
-.business-benefits {
+.bc-blue {
     background-color: #E4F0FF;
 }
-.mental-health {
+.bc-grey {
     background-color: #727aef1a;
-}
-.energy {
-    background-color: #727aef1a;
-}
-.friends {
-    background-color:   #E4F0FF;
 }
 .benefits-btn {
     background-color: #4B5092;
@@ -220,6 +207,7 @@ input[type="text"] {
     border: none;
     margin-bottom: 2rem;
     font-size: 1.2rem;
+    background: url(https://assets.codepen.io/6060109/icon-send.png) white 90% 50% no-repeat;
 }
 .form-label {
     text-align: center;
@@ -235,13 +223,93 @@ form {
 footer {
     color: #111235;
     text-align: center;
+    margin-top: 3rem;
     margin-bottom: 5rem;
 }
-.socials {
+.footer-icons {
+    margin: 1.5rem auto;
+    width: 45%;
     display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
+    justify-content: space-between;
+}
+.icon-circle {
+    background: rgba(128, 173, 245, .2);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}
+.top-menu {
+    display: none;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .container {
+        max-width: 1500px;
+    }
+    .outer-container {
+        margin: 0 10%;
+    }
+    .top-bar {
+        box-shadow: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-menu {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .hero-section-top {
+        width: 45%;
+    }
+    .hero-info {
+        width: 55%;
+    }
+    .hero-info h1 {
+        text-align: left;
+    }
+    .hero-info p {
+        text-align: left;
+    }
+    .cta-btn {
+        margin-left: 0;
+    }
+    .loads-section {
+        display: flex;
+    }
+    .loads-top {
+        width: 60%;
+    }
+    .loads-info {
+        width: 40%;
+        border-radius: 3rem;
+    }
+    .trainer-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .trainer-img {
+        width: 60%;
+    }
+    .trainer-info {
+        width: 40%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .trainer-info h2 {
+        text-align: left;
+    }
+    .trainer-info p {
+        text-align: left;
+    }
+    .training-sign-btn {
+        margin-left: 0;
+        padding: 1rem;
+    }
 }
