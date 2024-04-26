@@ -249,9 +249,6 @@ footer {
     .container {
         max-width: 1500px;
     }
-    /* .outer-container {
-        margin: 0 10%;
-    } */
     .top-bar {
         box-shadow: none;
         display: flex;
