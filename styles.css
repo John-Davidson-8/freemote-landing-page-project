@@ -318,5 +318,18 @@ footer {
     .desktop-only {
         display: block;
     }
+    .benefits-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 9.5rem 5rem 0 5rem;
+    }
+    .benefits-flex > .desktop-only {
+        margin: 0;
+    }
+    .benefits-flex > h2 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
 
 }
