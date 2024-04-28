@@ -184,14 +184,12 @@ p {
     margin-top: 2.5rem;
     margin-bottom: 3rem;
 }
-.menu {
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-}
 ul li {
     margin-bottom: 3rem;
+    list-style-type: none;
+    color: #111235;
+    text-decoration: none;
+    text-align: center;
 }
 .bottom-section a {
     text-decoration: none;
@@ -220,7 +218,7 @@ form {
     display: flex;
     justify-content: center;
 }
-footer {
+.footer-bottom {
     color: #111235;
     text-align: center;
     margin-top: 3rem;
@@ -312,12 +310,6 @@ footer {
         margin-left: 0;
         padding: 1rem;
     }
-    .mobile-only {
-        display: none;
-    }
-    .desktop-only {
-        display: block;
-    }
     .benefits-flex {
         display: flex;
         justify-content: space-between;
@@ -330,6 +322,47 @@ footer {
     .benefits-flex > h2 {
         font-size: 3rem;
         font-weight: 500;
+    }
+    .panels-img-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .benefits-img {
+        width: 70rem;
+    }
+    .benefits-panels {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-top: 3.75rem;
+    }
+    .bottom-section-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 6rem;
+    }
+    .bottom-section-flex h3 {
+        font-size: 2.25rem;
+        font-weight: 500;
+        margin-bottom: 5rem;
+    } 
+    .bottom-menu-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icons {
+    display: none;
+}
+
+
+
+
+    .mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: block;
     }
 
 }
