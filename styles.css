@@ -1,368 +1,375 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: "montserrat";
-    font-size: 1rem;
-    min-height: 100vh;
-    min-width: 100%;
-    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+  font-family: "montserrat";
+  font-size: 1rem;
+  min-height: 100vh;
+  min-width: 100%;
+  background: linear-gradient(7.28deg, #eef5ff 0%, #ffffff 99.69%);
 }
 .container {
-    max-width: 40rem;
-    margin: auto;
+  max-width: 40rem;
+  margin: auto;
 }
 .section-centre {
-    padding: 2rem;
+  padding: 2rem;
 }
 .top-bar {
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04),
+    0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 0px 1px 0px rgba(0, 0, 0, 0.04);
 }
 .top-bar h3 {
-    padding: 2rem;
-    font-weight: 500;
-    font-size: 2.25rem;
+  padding: 2rem;
+  font-weight: 500;
+  font-size: 2.25rem;
 }
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
-h1, h2, h3, h4, p {
-    color: #111235;
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #111235;
+  text-align: center;
 }
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 .hero-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 .hero-info p {
-    color: #111235;
+  color: #111235;
 }
 .hero-section h3 {
-    font-size: 2.25rem;
-    font-weight: 300;
-    margin: 1rem auto 2.5rem auto;
+  font-size: 2.25rem;
+  font-weight: 300;
+  margin: 1rem auto 2.5rem auto;
 }
 .hero-info h1 {
-    font-size: 3.5rem;
-    font-weight: 500;
-    line-height: 4.7rems;
-    margin-top: 0.5rem;
-    margin-bottom: 1.25rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 4.7rems;
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
 }
 .hero-section p {
-    margin-bottom: 3rem;;
+  margin-bottom: 3rem;
 }
 .all-btn {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 1.3rem 5rem;
-    font-size: 1.12rem;
-    font-weight: 500;
-    max-width: 17rem;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2.2rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.3rem 5rem;
+  font-size: 1.12rem;
+  font-weight: 500;
+  max-width: 17rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2.2rem;
 }
 .cta-btn {
-    color: #FFF;
-    background-color: #4B5092;
-    margin-bottom: 6rem;
+  color: #fff;
+  background-color: #4b5092;
+  margin-bottom: 6rem;
 }
 .loads-img {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 .loads-info {
-    background-color: #F2F8FF;
+  background-color: #f2f8ff;
 }
 .loads-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 .loads-info {
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 .loads-info h2 {
-    font-weight: 500;
-    text-align: left;
-    font-size: 3rem;
-    margin-bottom: 3rem;
+  font-weight: 500;
+  text-align: left;
+  font-size: 3rem;
+  margin-bottom: 3rem;
 }
 .loads-info p {
-    text-align: left;
-    line-height: 1.8;
+  text-align: left;
+  line-height: 1.8;
 }
 .trainer-section {
-    background: linear-gradient(100deg, #BAD4FF 0%, #6487BF 100%);
+  background: linear-gradient(100deg, #bad4ff 0%, #6487bf 100%);
 }
 .trainer-info h2 {
-    font-size: 2.8rem;
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 0.8rem;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 0.8rem;
 }
 .trainer-details {
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-bottom: 1.8rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
 }
 .trainer-info-para {
-    text-align: center;
+  text-align: center;
 }
 .trainer-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 .training-sign-btn {
-    background-color: #FFF;
-    color:  #436BAA;
-    font-size: 1.1rem;
-    margin-bottom: 3.8rem;
-    margin-top: 1.87rem;
+  background-color: #fff;
+  color: #436baa;
+  font-size: 1.1rem;
+  margin-bottom: 3.8rem;
+  margin-top: 1.87rem;
 }
 .benefits-image {
-    display: block;
-    width: 90%;
-    margin: 7rem auto 4rem auto;
+  display: block;
+  width: 90%;
+  margin: 7rem auto 4rem auto;
 }
 .benefits-info h2 {
-    font-size: 3rem;
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 2.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.5rem;
 }
 .panel h4 {
-    color: #111235;
-    text-align: left;
-    font-size: 1.5rem;
-    margin-bottom: 1.25rem;
-    width: 85%;
+  color: #111235;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  width: 85%;
 }
 .panel p {
-    font-size: 1rem;
-    text-align: left;
+  font-size: 1rem;
+  text-align: left;
 }
 .panel {
-    margin-bottom: 1.3rem;
-    border-radius: 1.87rem;
-    padding: 3rem;
+  margin-bottom: 1.3rem;
+  border-radius: 1.87rem;
+  padding: 3rem;
 }
 .bc-blue {
-    background-color: #E4F0FF;
+  background-color: #e4f0ff;
 }
 .bc-grey {
-    background-color: #727aef1a;
+  background-color: #727aef1a;
 }
 .benefits-btn {
-    background-color: #4B5092;
-    color: #FFFFFF;
-    margin: 4rem auto 4rem auto;
+  background-color: #4b5092;
+  color: #ffffff;
+  margin: 4rem auto 4rem auto;
 }
 .benefits-section {
-    border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 .bottom-section {
-    padding: 2rem;
+  padding: 2rem;
 }
-.bottom-section h3 {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-top: 2.5rem;
-    margin-bottom: 3rem;
+.bottom-section-heading h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+.bottom-menu-flex a {
+  text-decoration: none;
+}
+.bottom-menu-flex ul li {
+  list-style-type: none;
 }
 ul li {
-    margin-bottom: 3rem;
-    list-style-type: none;
-    color: #111235;
-    text-decoration: none;
-    text-align: center;
+  margin-bottom: 3rem;
+  list-style-type: none;
+  color: #111235;
+  text-decoration: none;
+  text-align: center;
 }
 .bottom-section a {
-    text-decoration: none;
-    color: #111235;
-    font-size: 1rem;
+  text-decoration: none;
+  color: #111235;
+  font-size: 1rem;
 }
 input[type="text"] {
-    width: 75%;
-    height: 3.1rem;
-    box-sizing: border-box;
-    padding: 0 1.25rem;
-    border-radius: 5rem;
-    border: none;
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    background: url(https://assets.codepen.io/6060109/icon-send.png) white 90% 50% no-repeat;
+  width: 75%;
+  height: 3.1rem;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+  border-radius: 5rem;
+  border: none;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  background: url(https://assets.codepen.io/6060109/icon-send.png) white 90% 50%
+    no-repeat;
 }
 .form-label {
-    text-align: center;
-    color: #111235;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  text-align: center;
+  color: #111235;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 form {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .footer-bottom {
-    color: #111235;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+  color: #111235;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 .footer-icons {
-    margin: 1.5rem auto;
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
+  margin: 1.5rem auto;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
 }
 .icon-circle {
-    background: rgba(128, 173, 245, .2);
-    height: 2rem;
-    width: 2rem;
-    border-radius: 100%;
+  background: rgba(128, 173, 245, 0.2);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
 }
 .top-menu {
-    display: none;
+  display: none;
 }
 .desktop-only {
-    display: none;
+  display: none;
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .container {
-        max-width: 1500px;
-    }
-    .top-bar {
-        box-shadow: none;
-        display: flex;
-        justify-content: space-between;
-    }
-    .top-menu {
-        display: flex;
-        width: 40%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .hero-section {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-    .hero-section-top {
-        width: 45%;
-    }
-    .hero-info {
-        width: 55%;
-    }
-    .hero-info h1 {
-        text-align: left;
-    }
-    .hero-info p {
-        text-align: left;
-    }
-    .cta-btn {
-        margin-left: 0;
-    }
-    .loads-section {
-        display: flex;
-    }
-    .loads-top {
-        width: 60%;
-    }
-    .loads-info {
-        width: 40%;
-        border-radius: 3rem;
-    }
-    .trainer-section {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .trainer-img {
-        width: 60%;
-    }
-    .trainer-info {
-        width: 40%;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-    .trainer-info h2 {
-        text-align: left;
-    }
-    .trainer-info p {
-        text-align: left;
-    }
-    .training-sign-btn {
-        margin-left: 0;
-        padding: 1rem;
-    }
-    .benefits-flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 9.5rem 5rem 0 5rem;
-    }
-    .benefits-flex > .desktop-only {
-        margin: 0;
-    }
-    .benefits-flex > h2 {
-        font-size: 3rem;
-        font-weight: 500;
-    }
-    .panels-img-container {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .benefits-img {
-        width: 70rem;
-    }
-    .benefits-panels {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        margin-top: 3.75rem;
-    }
-    .bottom-section-flex {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 6rem;
-    }
-    .bottom-section-flex h3 {
-        font-size: 2.25rem;
-        font-weight: 500;
-        margin-bottom: 5rem;
-    } 
-    .bottom-menu-flex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-icons {
+  .container {
+    max-width: 1500px;
+  }
+  .top-bar {
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+  }
+  .top-menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .hero-section-top {
+    width: 45%;
+  }
+  .hero-info {
+    width: 55%;
+  }
+  .hero-info h1 {
+    text-align: left;
+  }
+  .hero-info p {
+    text-align: left;
+  }
+  .cta-btn {
+    margin-left: 0;
+  }
+  .loads-section {
+    display: flex;
+  }
+  .loads-top {
+    width: 60%;
+  }
+  .loads-info {
+    width: 40%;
+    border-radius: 3rem;
+  }
+  .trainer-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .trainer-img {
+    width: 60%;
+  }
+  .trainer-info {
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .trainer-info h2 {
+    text-align: left;
+  }
+  .trainer-info p {
+    text-align: left;
+  }
+  .training-sign-btn {
+    margin-left: 0;
+    padding: 1rem;
+  }
+  .benefits-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 9.5rem 5rem 0 5rem;
+  }
+  .benefits-flex > .desktop-only {
+    margin: 0;
+  }
+  .benefits-flex > h2 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .panels-img-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .benefits-img {
+    width: 70rem;
+  }
+  .benefits-panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 3.75rem;
+  }
+  .bottom-section-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6rem;
+  }
+  .bottom-section-flex h3 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-icons {
     display: none;
-}
-
-
-
-
-    .mobile-only {
-        display: none;
-    }
-    .desktop-only {
-        display: block;
-    }
-
+  }
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
 }
